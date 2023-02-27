@@ -1,4 +1,163 @@
+html,
 body {
-    height: 100vh;
-    color: black;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #431538;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+body::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 70%);
+    animation: sparkle 9s ease-in-out infinite;
+}
+
+@keyframes sparkle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+h1 {
+    font-family: 'Roboto',sans-serif;
+    color: #fff;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: 'Josefin Sans',sans-serif;
+    color: #fff;
+    font-size: 40px;   
+}
+
+p,
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.menu {
+    border-bottom: 3px solid #707070;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.menu a {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.menu a:hover {
+   text-decoration: underline;
+   color: #EB86D0;
+}
+
+.menu li {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.presantation {
+    display: flex;
+    flex-direction: row;
+}
+
+.presantation1 {
+    /* flex: 1; */
+    margin: 50px;
+}
+
+.presantation2 {
+   /* flex: 1; */
+   margin: 50px;
+}
+
+.profile {
+    min-width: 200px;
+    max-width: 400px;
+    margin: 50px;
+}
+
+.go_next {
+    text-align: center;
+    margin: 50px;
+}
+
+.btn {
+    padding: 8px;
+    border-radius: 50px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    width: 210px;
+    height: 45px;
+    margin: 0 auto;
+    text-decoration: none;
+    background-color: #EB86D0;
+    border: 1px solid #707070;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: rgba(227, 198, 224, 0.25) 0px 30px 60px -12px inset,
+    rgba(228, 226, 227, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+footer {
+    height: 100px;
+    border-top: 3px solid #707070;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 25px;
+}
+
+.contact_footer {
+    margin: 40px;
+    cursor: pointer;
+}
+
+.contact_footer a:hover {
+    text-decoration: underline;
+    color: #EB86D0;
+}
+
+.copy p {
+    margin: 0;
+    margin: 40px;
 }

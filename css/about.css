@@ -1,0 +1,27 @@
+/* body {
+    background-color: #431538;
+    position: relative;
+    overflow: hidden;
+}
+
+body::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 70%);
+        animation: sparkle 9s ease-in-out infinite;
+    }
+
+    @keyframes sparkle {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }    */
