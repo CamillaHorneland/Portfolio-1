@@ -70,7 +70,7 @@ p {
     }
 
     .profile {
-        width: 150px;
+        width: 250px;
     }
 }
 
@@ -120,5 +120,3 @@ p {
         margin-bottom: 60px;
     }
 }
-
-@media (max-width: 900px) {}

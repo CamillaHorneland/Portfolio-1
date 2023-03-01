@@ -4,27 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio Camilla Horneland | About</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
-<link rel="shortcut icon" type="image/png" href="images/Profile-small.png">
-<link href="/css/styles.css" rel="stylesheet" type="text/css">
-<link href="/css/about.css" rel="stylesheet" type="text/css">
+    <meta name="description" content="Camilla Horneland portfolio - this is the about page.">
+    <title>Portfolio Camilla Horneland | About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/Profile-small.png">
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="/css/about.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header>
         <section class="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <label for="hamburger-menu"><img class="bars" src="/images/bars.png" alt="icon for menu"></label>
+            <input type="checkbox" id="hamburger-menu">
+            <nav class="deteskop mobile" id="overlay">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a class="close" href="about.html"><img src="/images/bars.png" alt="close menu"></a>
+            </nav>
         </section>
     </header>
     <main>
-        
+        <section class="about">
+            <div class="about1">
+                <h1>&lt;h1&gt;About&lt;/h1&gt</h1>
+            </div>
+            <div class="aboutContent">
+                <p>&lt;p&gt;My name is Camilla. I am a 38 year old female.</p>
+                <p>I live in Bergen Norway with my 3 kids and my husband.</p>
+            </div>
+            <div class="aboutContent">
+                <p>A year ago I left my job for 14 years as a kindergarten teacher.</p>
+                <p>And now I will soon finsih my first year as a front-end developer student at Noroff.</p>
+            </div>
+            <div class="aboutContent">
+                <p>This is my portfolio where you can see the biggest assignments I have completed my first year as a student.&lt;/p&gt</p>
+            </div>
+        </section>
+        <section class="go_next">
+            <button class="btn"><a href="projects.html" title="Projects">See projects</a></button>
+        </section>
     </main>
     <footer>
         <section class="footer_content">

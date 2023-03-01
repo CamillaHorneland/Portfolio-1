@@ -3,37 +3,30 @@ main {
     border-left: 2px solid #EB86D0;
 }
 
-.about {
-    margin: 70px;
+h1 {
+    margin: 90px 70px;
 }
 
-.about1 {
-    margin-top: 90px;
-}
-
-.aboutContent {
-    margin-top: 90px;
-    margin-bottom: 90px;
+#contactForm {
+    margin: 50px 60px;
 }
 
 .go_next {
     margin: 90px 70px;
 }
 
-@media (max-width: 800px) { 
+
+@media (max-width: 800px) {
 
     main {
         margin: 45px;
     }
 
-    .about {
-        margin: 30px;
-    }
-
     h1 {
         font-size: 35px;
+        margin: 60px 30px;
     }
-
+    
     .go_next {
         text-align: center;
         margin: 60px 0px;

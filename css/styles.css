@@ -66,6 +66,11 @@ a {
     padding-top: 30px;
 }
 
+h1:hover {
+    color: #EB86D0;
+}
+
+
 .btn {
     padding: 8px;
     border-radius: 50px;
