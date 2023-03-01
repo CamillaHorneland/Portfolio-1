@@ -4,15 +4,31 @@ main {
 }
 
 h1 {
-    margin: 90px 70px;
+    margin: 90px 90px;
 }
 
 #contactForm {
-    margin: 50px 60px;
+    margin: 50px 120px;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+}
+
+textarea {
+    height: 300px;
+    width: 300px;
 }
 
 .go_next {
-    margin: 90px 70px;
+    margin: 90px 40px;
+}
+
+#yourNameError,
+#emailError,
+#messageError {
+    display: none;
 }
 
 
@@ -24,7 +40,13 @@ h1 {
 
     h1 {
         font-size: 35px;
-        margin: 60px 30px;
+        margin: 60px 0px;
+        text-align: center;
+    }
+
+    #contactForm {
+        margin: 50px 0px;
+        text-align: center;
     }
     
     .go_next {
