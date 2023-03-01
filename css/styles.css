@@ -21,6 +21,12 @@ h2 {
     font-size: 40px;   
 }
 
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(78, 76, 76);
+    font-size: 20px;
+}
+
 p,
 a {
     font-family: 'Josefin Sans', sans-serif;
