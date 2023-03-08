@@ -49,7 +49,7 @@ textarea {
     position: absolute;
     left: 50%;
     right: 50%;
-    top: 60%;
+    top: 65%;
     text-align: center;
 }
 
@@ -94,6 +94,10 @@ a:hover {
     
     textarea {
         width: 230px;
+    }
+
+    .messageYou {
+        width: 300px;
     }
 }
 
