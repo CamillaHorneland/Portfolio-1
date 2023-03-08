@@ -73,3 +73,9 @@ function validateEmail(email) {
     const patternMatches = regEx.test(email);
     return patternMatches;
 }
+
+document.addEventListener("click", function(event) {
+  if (!messageYou.contains(event.target)) {
+    messageYou.style.display = "none";
+  }
+});
