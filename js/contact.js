@@ -36,7 +36,7 @@ function validateForm(event) {
     }
 
        if(!hasErrors) {
-       messageYou.innerHTML = '<div class="messageYou"><h1>Your message has been sent..</h1><a href="index.html">Home</a></div>';
+       messageYou.style.display ="block";
        form.reset();
     }
 

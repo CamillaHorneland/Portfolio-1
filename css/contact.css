@@ -7,6 +7,14 @@ h1 {
     margin: 90px 90px;
 }
 
+h3 {
+    color:#431538;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+    font-weight: bolder;
+}
+
 #contactForm {
     margin: 50px 120px;
 }
@@ -27,8 +35,31 @@ textarea {
 
 #yourNameError,
 #emailError,
-#messageError {
+#messageError,
+.messageYou {
     display: none;
+}
+
+.messageYou {
+    background-color: #817f7f;
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 60%;
+    text-align: center;
+}
+
+a {
+    font-size: 25px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #EB86D0;
 }
 
 
