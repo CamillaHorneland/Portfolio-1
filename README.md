@@ -29,8 +29,7 @@ My portfolio consist of the following pages:
 ## Installing
 
 1.Clone the repo:
-
-      git clone https://github.com/CamillaHorneland/Portfolio-1.git
+git clone https://github.com/CamillaHorneland/Portfolio-1.git
 
 2. Install the dependencies:
 
