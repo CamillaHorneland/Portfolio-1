@@ -28,11 +28,11 @@ My portfolio consist of the following pages:
 
 ## Installing
 
-    Clone the repo:
+    1.Clone the repo:
 
 git clone https://github.com/CamillaHorneland/Portfolio-1.git
 
-    Install the dependencies:
+    2. Install the dependencies:
 
 npm install
 
