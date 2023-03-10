@@ -30,7 +30,7 @@ My portfolio consist of the following pages:
 
 1.Clone the repo:
 
-       git clone https://github.com/CamillaHorneland/Portfolio-1.git
+      git clone https://github.com/CamillaHorneland/Portfolio-1.git
 
 2. Install the dependencies:
 
@@ -42,7 +42,8 @@ Here is where you detail how to run the app. It typically involves the commands 
 
 To run the app, run the following commands:
 
-npm run start
+      npm run start
+      
 # Contact
 
 <a href="mailto:hornikkene@gmail.com?">My Mail</a> 
