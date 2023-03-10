@@ -34,7 +34,7 @@ My portfolio consist of the following pages:
 
 2. Install the dependencies:
 
-     npm install
+      npm install
 
 ## Running
 
