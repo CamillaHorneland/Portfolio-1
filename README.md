@@ -24,14 +24,25 @@ My portfolio consist of the following pages:
     - CSS
     - JavaScript
     
- # Instructions:
+# Getting Started
 
-    - Fork this repository
-    - Clone the forked repository
-    - Add your contributions (code or documentation)
-    - Commit and push
-    - Wait for pull request to be merged
+## Installing
 
+    Clone the repo:
+
+git clone https://github.com/CamillaHorneland/Portfolio-1.git
+
+    Install the dependencies:
+
+npm install
+
+## Running
+
+Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+
+To run the app, run the following commands:
+
+npm run start
 # Contact
 
 <a href="mailto:hornikkene@gmail.com?">My Mail</a> 
