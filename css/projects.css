@@ -14,7 +14,7 @@ h1 {
 .card {
     border: 3px solid rgb(111, 110, 110);
     background-color: #fff;
-    height: 400px;
+    height: 620px;
     width: 400px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -79,7 +79,7 @@ h1 {
 @media (max-width: 600px) {
 
     .card {
-        height: 400px;
+        min-height: 620px;
         width: 300px;
     }
 
